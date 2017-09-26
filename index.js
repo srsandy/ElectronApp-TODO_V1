@@ -15,7 +15,7 @@ app.on('ready', () => {
 	const mainMenu = Menu.buildFromTemplate(menuTemplate);
 	Menu.setApplicationMenu(mainMenu);
 
-	//Menu.buildFromTemplate is a function that take menu template as an argument and builds the top menu for us
+	//Menu.buildFromTemplate is a function that take menuTemplate as an argument and builds the top menu bar for us
 	//Menu.setApplicationMenu set the menu bar after it is build
 
 });
